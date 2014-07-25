@@ -1,0 +1,22 @@
+{
+    "name": "ginger/gin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Condurache",
+            "email": "andrew@ginklabs.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.2.*",
+        "guzzle/guzzle": ">=3.0, <3.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ginger\\Gin": "src/",
+            "GingerLight": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
